@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shop | AppleJuice iRepair</title>
+        <link rel="icon" type="image/webp" href="../Images/webp/ijuice_icon PNG noBG.webp">
+        <link rel="icon" type="image/png" href="../Images/png/iJuice_icon PNG noBG.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+        <script>
+            window.onload = function () {
+                window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            };
+        </script>
+        <script src="../JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+    </head>
+
+    <body>
+        <div class="Navbar" id="Navbar">
+            <a href="../../index.html">
+                <picture class="navbar-logo" id="navbar-logo">
+                    <source srcset="../Images/webp/navbar logo.webp" type="image/webp">
+                    <img src="../Images/png/navbar logo.png" alt="Image">
+                </picture>
+            </a>
+            <label class="hamburger-menu">
+                <input type="checkbox" id="hamburger-checkbox">
+            </label>
+            <aside class="sidebar" id="sidebar">
+                <nav class="sidebar-items-left">
+                    <a href="../HTML/iPad.html">iPad</a>
+                    <a href="../HTML/Mac.html">Mac</a>
+                    <a href="../HTML/iPhone.html">iPhone</a>
+                    <a href="../HTML/Watch.html">Watch</a>
+                </nav>
+                <a href="../../index.html">
+                    <picture class="dt-nav-logo" id="dt-nav-logo">
+                        <source srcset="../Images/webp/navbar logo.webp" type="image/webp">
+                        <img src="../Images/png/navbar logo.png" alt="Image">
+                    </picture>
+                </a>
+                <nav class="sidebar-items-right">
+                    <a href="../../index.html">Home</a>
+                    <a href="../HTML/DataRecovery.html">Data Recovery</a>
+                    <a href="../HTML/Recycle.html">Recycle</a>
+                    <a href="../HTML/Team.html">Team</a>
+                </nav>
+            </aside>
+        </div>
+        <a class="Contact-Button" id="Contact-Button">
+            <div class="dots"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+        </a>
+        <div id="Popup-Buttons" class="Popup-Buttons hidden">
+            <div class="btn-container">
+                <a href="tel:+17046629228" class="popup-btn phone"></a>
+                <span>Mooresville</span>
+            </div>
+            <div class="btn-container">
+                <a href="tel:+18283861945" class="popup-btn phone"></a>
+                <span>Boone</span>
+            </div>
+            <div class="btn-container">
+                <a href="mailto:service@apple-juice.com" class="popup-btn email"></a>
+            </div>
+            <div class="btn-container">
+                <a href="https://m.me/AppleJuiceLLC3/" class="popup-btn messenger"></a>
+            </div>
+        </div>
+        <div class="store-div">
+            <h1>Online Store Coming Soon!</h1>
+            <p>Sign up to be first to know when our online shop goes live.</p>
+            <form id="emailForm">
+                <label for="emailInput">Enter your email here*</label>
+                <input type="email" id="emailInput" required>
+                <button type="submit" id="submitButton">Notify Me</button>
+            </form>
+        </div>
+
+        <!-- Where I have left off is needing to set up a way to send submissions
+        of the form to an email account to accrue a database. Maybe this isn't
+        the best way so look into other options -->
+
+        <script src="../JS/swiperActivator.js"></script>
+        <script src="../JS/hamburgerMenu.js"></script>
+        <script src="../JS/contactButton.js"></script>
+        <script src="../JS/juiceUpResize.js"></script>
+    </body>
+
+    <footer>
+        <div class="Footer-Links" id="Footer-Links">
+            <a>About Us</a>
+            <a>Contact Us</a>
+            <a href="locations.html">Locations / Maps</a>
+            <a>Meet Our Team</a>
+            <a>Client Relations</a>
+        </div>
+        <div class="Socials" id="Socials">
+            <a href="https://www.instagram.com/applejuice_mooresville/?hl=en">
+                <picture>
+                    <source srcset="../Images/webp/instagram.webp" type="image/webp">
+                    <img src="../Images/png/instagram.png" alt="Instagram Link">
+                </picture>
+            </a>
+            <a href="https://www.facebook.com/AppleJuiceLLC2/">
+                <picture>
+                    <source srcset="../Images/webp/facebook.webp" type="image/webp">
+                    <img src="../Images/png/facebook.png" alt="FaceBook Boone Link">
+                </picture>
+            </a>
+            <a href="https://www.facebook.com/AppleJuiceLLC3/">
+                <picture>
+                    <source srcset="../Images/webp/facebook.webp" type="image/webp">
+                    <img src="../Images/png/facebook.png" alt="FaceBook Mooresville Link">
+                </picture>
+            </a>
+            <a href="https://www.youtube.com/@AppleJuiceiRepairWinstonSalem">
+                <picture>
+                    <source srcset="../Images/webp/youtube.webp" type="image/webp">
+                    <img src="../Images/png/youtube.png" alt="YouTube Link">
+                </picture>
+            </a>
+        </div>
+        <h5 class="copyright" id="copyright">© 2023 by AppleJuice, Llc.</h5>
+    </footer>
+
+</html>

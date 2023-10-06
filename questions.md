@@ -1,0 +1,8 @@
+One question I have is, in the "Our Repairs & Services" Section on the landing page, the images for mac iphone, etc. They all have photos of nice unbroken devices, EXCEPT the iPhone. Would you like a nice iPhone here? Or find other device photos of them broken? Or just keep it the way it is?
+-Find unbroken iPhone picture
+
+Another question for the same section "Our Repairs & Services" is, the design is a bit tricky with the header. On wix the designer had it overlap the image but it didn't look clean or consistent so I put it below the image. The problem I'm having is that when I change the orientation of the boxes for larger viewport widths (Laptop, tablet, computer, etc.) The text is really scrunched up, as the placement of the header is below or in this case to the right of the image instead of overlapping. Do you like keeping the design of these boxes the way I have them now? Do you want me to come up with a whole new design for this?
+- Jeremiah liked the design I came up with better
+
+The iPhone stock photos are really hard to find. I know of a website that I can get them from if they give me permission. I've already sent them an email, hopefully they will get back to me soon. Otherwise we will have to use a stock photo website that costs money. All of the free images don't have just the iPhone front and back, and if they do they do not have the apple logo. How do you want me to proceed if the website does not email me back soon? Also we may run into the same problem for the iPad, Mac, and Watch pages too.
+Looks like the cheapest option so far is despo
