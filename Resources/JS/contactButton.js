@@ -1,4 +1,5 @@
-document.getElementById("Contact-Button").addEventListener("click", function() {
+// Function to toggle the display of popup buttons
+function togglePopupButtons() {
     const popupButtons = document.getElementById("Popup-Buttons");
 
     if (popupButtons.style.display === "flex") {
@@ -12,4 +13,13 @@ document.getElementById("Contact-Button").addEventListener("click", function() {
             popupButtons.style.transform = "translateY(0)";
         }, 10);
     }
+}
+
+// Event listener for the Contact button
+document.getElementById("Contact-Button").addEventListener("click", togglePopupButtons);
+
+// Event listener for all <a class="more-info"> elements
+const moreInfoLinks = document.querySelectorAll(".more-info");
+moreInfoLinks.forEach(link => {
+    link.addEventListener("click", togglePopupButtons);
 });

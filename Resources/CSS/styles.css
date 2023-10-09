@@ -862,8 +862,6 @@ footer {
 }
 
 .swiper-slide img {
-    /* width: 45vw; */
-    /* height: auto; */
     max-width: 300px;
     max-height: 300px;
 }
@@ -872,6 +870,12 @@ footer {
 .swiper-button-prev {
     height: 100%;
     margin-inline: 1.5rem;
+}
+
+@media only screen and (max-width: 766px) {
+    .swiper-inner-wrapper {
+        min-height: 630px;
+    }
 }
 
 /* Media Query for Viewports greater than 768px width */
@@ -1071,4 +1075,22 @@ p {
         margin-left: 0;
         width: 100%;
     }
+}
+
+.more-info {
+    cursor: pointer;
+    height: 40px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+    padding-inline: 1rem;
+    padding-block: 0.3rem;
+    border-radius: 25px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    color: black;
+}
+
+.more-info:hover {
+    box-shadow: 0px 2px 15px var(--color_19);
+    transform: scale(1.10);
 }

@@ -1,80 +1,149 @@
-<div class="locations-div">
-    <div class="location-card">
-        <div>
-            <picture>
-                <source srcset="../Images/webp/MooresvilleMap.webp" type="image/webp">
-                <img src="../Images/png/MooresvilleMap.png" alt="Mooresville Location on a map">
-            </picture>
-        </div>
-        <div>
-            <h1>Mooresville</h1>
-            <a href="https://www.google.com/maps/place/AppleJuice+iRepairs+Mooresville/@35.5965143,-80.8714849,17z/data=!3m1!4b1!4m6!3m5!1s0x885154eecfa412d3:0xe040de3de905968e!8m2!3d35.59651!4d-80.86891!16s%2Fg%2F11ddxvwbl5?entry=ttu">
-                <h2>690 Bluefield Road Suite d, Mooresville, NC, USA</h2>
-            </a>
-            <p>Find us near Super Target between Rice Fun & Sushi @ the Lake Too.</p>
-        </div>
+<div id="Popup-Buttons" class="Popup-Buttons hidden">
+    <div class="btn-container">
+        <a href="tel:+17046629228" class="popup-btn phone"></a>
+        <span>Mooresville</span>
     </div>
-    <div class="location-card">
-        <div>
-            <picture>
-                <source srcset="../Images/webp/booneMap.webp" type="image/webp">
-                <img src="../Images/png/booneMap.png" alt="Boone Location on a map">
-            </picture>
-        </div>
-        <div>
-            <h1>Boone</h1>
-            <a href="https://www.google.com/maps/place/AppleJuice+iRepairs+%7C+Apple+Specialist+Repair+%26+Sales!/@36.2195611,-81.6654539,17z/data=!3m1!4b1!4m6!3m5!1s0x8850fa3b6e764b93:0x6b84f1a34132b072!8m2!3d36.2195568!4d-81.662879!16s%2Fg%2F11b73zvhq2?entry=ttu">
-                <h2>199 New Market Centre Suite 9, Boone, NC, USA</h2>
-            </a>
-            <p>Find us in New Market Centre between Higher Ground Coffe Shop and Great Clips</p>
-        </div>
+    <div class="btn-container">
+        <a href="tel:+18283861945" class="popup-btn phone"></a>
+        <span>Boone</span>
+    </div>
+    <div class="btn-container">
+        <a href="mailto:service@apple-juice.com" class="popup-btn email"></a>
+    </div>
+    <div class="btn-container">
+        <a href="https://m.me/AppleJuiceLLC3/" class="popup-btn messenger"></a>
     </div>
 </div>
+<div>
+    <a class="more-info">Call for more information</a>
+</div>
+<div>
+    <a class="more-info">Call for more information</a>
+</div>
+<div>
+    <a class="more-info">Call for more information</a>
+</div>
 
-.locations-div {
+.Contact-Button {
+    position: fixed;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 4rem;
-    padding: 2rem;
-    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 45px;
+    width: 45px;
+    margin: 1rem;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    background-color: var(--color_3);
+    cursor: pointer;
+    outline: none;
+    z-index: 9998;
 }
 
-.location-card {
+.Contact-Button:focus {
+    outline: none;
+}
+
+.Contact-Button .dots {
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.hidden {
+    display: none;
+}
+
+.Popup-Buttons {
+    position: fixed;
+    bottom: 80px;
+    left: 0;
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(150%);
+    z-index: 998;
+}
+
+.Popup-Buttons div {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
 }
 
-.location-card img {
-    max-width: 300px;
-    max-height: 300px;
-    border-radius: 25px;
-}
-
-.location-card div:first-child {
+.btn-container {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
 }
 
-.location-card div:nth-child(2) {
-    margin-left: 2rem;
-    width: 100%;
-}
-
-.location-data h1 {
+.btn-container span {
     font-family: 'Figtree', sans-serif;
-    color: white;
-}
-
-.location-data h2, p {
-    font-family: 'Figtree', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
     color: var(--color_27);
+    background-color: black;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 15px;
+    vertical-align: middle;
 }
 
-I need a media query where if the width of the viewport is less than 1000px then I want the text fields to show below the images rather than to the right of them.
+.btn-container .popup-btn {
+    margin-right: 10px;
+}
+
+.popup-btn {
+    background-color: var(--color_3);
+    border: none;
+    width: 45px;
+    height: 45px;
+    margin-inline: 1rem;
+    margin-block: 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+.popup-btn.phone {
+    display: block;
+    background-image: url('../Images/webp/phone-call.webp');
+    background-image: url('../Images/png/phone-call.png');
+    background-repeat: no-repeat;
+}
+
+.popup-btn.email {
+    background-image: url('../Images/webp/email.webp');
+    background-image: url('../Images/png/email.png');
+}
+
+.popup-btn.messenger {
+    background-image: url('../Images/webp/messenger.webp');
+    background-image: url('../Images/png/messenger.png');
+}
+
+document.getElementById("Contact-Button").addEventListener("click", function() {
+    const popupButtons = document.getElementById("Popup-Buttons");
+
+    if (popupButtons.style.display === "flex") {
+        popupButtons.style.transform = "translateY(150%)";
+        setTimeout(() => {
+            popupButtons.style.display = "none";
+        }, 300);
+    } else {
+        popupButtons.style.display = "flex";
+        setTimeout(() => {
+            popupButtons.style.transform = "translateY(0)";
+        }, 10);
+    }
+});
+
+This is my contact button that I keep on screen and when you click it it opens. What I would like to do is add functionality so that when the user clicks any of the <a class="more-info"> the popup button will activate just like if it was tapped
