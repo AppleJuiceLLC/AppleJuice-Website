@@ -935,19 +935,118 @@ footer {
     min-height: 400px;
 }
 
-/* iPad Page */
-
-/* Watch Page */
-
 /* Shop Page */
 
 .store-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/webp/shop\ page\ bg.webp');
+    background-image: url('../Images/jpg/shop-page-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     margin-top: 4rem;
-    height: 100%;
+    height: 95vh;
     width: 100%;
+    font-family: 'Figtree', sans-serif;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.store-div h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+    line-height: 0.5;
+}
+
+.store-div p {
+    margin-top: 2rem;
+    color: white;
+}
+
+.store-div form {
+    margin-bottom: 2rem;
+}
+
+#emailForm input {
+    width: 300px;
+    padding-inline: 15px;
+    padding-block: 5px;
+    margin-right: 0;
+    border: 2px solid black;
+}
+
+#emailForm button {
+    margin-left: 0;
+    background-color: var(--color_27);
+    border: 2px solid black;
+    padding-inline: 15px;
+    padding-block: 5px;
 }
 
 /* Data Recovery Page */
+
+.data-recovery-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Figtree', sans-serif;
+    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.data-recovery-section h1 {
+    font-size: 45px;
+    color: var(--color_27);
+    text-align: center;
+}
+
+.recovery-option {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color_22);
+    margin-block: 2rem;
+    height: 200px;
+    border-radius: 25px;
+}
+
+.recovery-option img {
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.recovery-info {
+    position: relative;
+    padding-inline: 1rem;
+}
+
+.recovery-info p {
+    color: black;
+}
+
+.recovery-info a {
+    background-color: var(--color_27);
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.recovery-contact {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 /* Recycle Page */
 
