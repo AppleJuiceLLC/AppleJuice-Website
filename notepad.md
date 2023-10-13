@@ -146,4 +146,4 @@ document.getElementById("Contact-Button").addEventListener("click", function() {
     }
 });
 
-This is my contact button that I keep on screen and when you click it it opens. What I would like to do is add functionality so that when the user clicks any of the <a class="more-info"> the popup button will activate just like if it was tapped
+This is my contact button that I keep on screen and when you click it it opens. What I would like to do is add functionality so that when the user clicks any of the <a class="contact"> the popup button will activate just like if it was tapped

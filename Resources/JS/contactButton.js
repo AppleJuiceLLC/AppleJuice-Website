@@ -19,7 +19,7 @@ function togglePopupButtons() {
 document.getElementById("Contact-Button").addEventListener("click", togglePopupButtons);
 
 // Event listener for all <a class="more-info"> elements
-const moreInfoLinks = document.querySelectorAll(".more-info");
+const moreInfoLinks = document.querySelectorAll(".more-info, .contact");
 moreInfoLinks.forEach(link => {
     link.addEventListener("click", togglePopupButtons);
 });

@@ -115,13 +115,14 @@ a:visited {
     align-items: center;
     bottom: 0;
     left: 0;
-    height: 45px;
-    width: 45px;
+    height: 50px;
+    width: 50px;
     margin: 1rem;
     border: none;
     border-radius: 50%;
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-    background-color: var(--color_3);
+    border: 3px solid var(--color_27);
+    background-color: black;
     cursor: pointer;
     outline: none;
     z-index: 9998;
@@ -134,7 +135,7 @@ a:visited {
 .Contact-Button .dots {
     height: 5px;
     width: 5px;
-    background-color: black;
+    background-color: var(--color_27);
     border-radius: 50%;
     margin: 2px;
 }
@@ -184,10 +185,10 @@ a:visited {
 }
 
 .popup-btn {
-    background-color: var(--color_3);
-    border: none;
-    width: 45px;
-    height: 45px;
+    background-color: black;
+    border: 3px solid var(--color_27);
+    width: 50px;
+    height: 50px;
     margin-inline: 1rem;
     margin-block: 5px;
     border-radius: 30px;
@@ -997,6 +998,7 @@ footer {
     margin-top: 5rem;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .data-recovery-section h1 {
@@ -1025,6 +1027,7 @@ footer {
 
 .recovery-info {
     position: relative;
+    width: 100%;
     padding-inline: 1rem;
 }
 
@@ -1046,6 +1049,44 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.contact {
+    cursor: pointer;
+    user-select: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .recovery-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--color_22);
+        margin-block: 2rem;
+        height: auto;
+        border-radius: 25px;
+    }
+
+    .recovery-option img {
+        border-radius: 25px;
+        margin-top: 5px;
+    }
+
+    .recovery-info {
+        position: relative;
+        width: 100%;
+        padding-inline: 1rem;
+    }
+
+    .recovery-contact {
+        position: relative;
+        bottom: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 /* Recycle Page */
@@ -1107,6 +1148,16 @@ footer {
     .recycleTextDiv {
         width: 70%;
     }
+}
+
+/* Team Page */
+
+.team-header {
+    font-family: 'Figtree', sans-serif;
+    font-size: 30px;
+    margin-top: 6rem;
+    color: var(--color_27);
+    text-align: center;
 }
 
 /* Locations Page */
