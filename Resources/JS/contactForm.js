@@ -38,5 +38,3 @@ if (window.location.protocol !== "https:") {
         });
     });
 }
-
-DO NOT DELETE THIS YET!!!!!!
