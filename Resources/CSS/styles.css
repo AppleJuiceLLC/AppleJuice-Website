@@ -407,7 +407,7 @@ aside {
 }
 
 .Why-Apple-Repair {
-    background-color: var(--color_1);
+    background-color: var(--color_3);
 }
 
 .ceo-message {
@@ -1215,8 +1215,7 @@ footer {
     font-family: 'Figtree', sans-serif;
     background-color: var(--color_2);
     width: 60%;
-    margin: 0;
-    padding: 0;
+    padding-top: 1rem;
 }
 
 fieldset {
