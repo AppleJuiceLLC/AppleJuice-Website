@@ -564,6 +564,23 @@ aside {
     margin-inline: 2rem;
 }
 
+.learn-more {
+    background-color: white;
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+    width: 35%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.learn-more:hover {
+    box-shadow: 0px 2px 15px var(--color_19);
+    transform: scale(1.10);
+}
+
 /* Testimonials Section */
 
 .testimonial-container {
@@ -636,7 +653,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 2rem;
-    background-color: var(--color_18);
+    background-color: var(--color_3);
     border-top: 6px solid var(--color_4);
 }
 
@@ -648,7 +665,7 @@ footer {
     font-size: 21px;
     line-height: 2.5;
     margin-bottom: 1rem;
-    color: var(--color_9);
+    color: white;
 }
 
 .Socials a {
@@ -684,7 +701,6 @@ footer {
 @media only screen and (min-width: 426px) {
     .R-S-Boxes div {
         max-width: 600px;
-        height: 600px;
         margin-inline: calc(var(--base-margin) + var(--increase-factor) * 100vw);
     }
 }
@@ -730,7 +746,7 @@ footer {
         white-space: nowrap;
         padding: 0;
         color: var(--foreground);
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .navbar-logo {
@@ -828,7 +844,6 @@ footer {
     background-color: white;
     font-family: 'Figtree', sans-serif;
     font-size: calc(1.1vh + 1.1vw);
-    /* font-size: 18px; */
     font-weight: bold;
     text-align: center;
     width: 80%;
