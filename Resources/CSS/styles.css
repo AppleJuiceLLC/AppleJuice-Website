@@ -1022,6 +1022,13 @@ footer {
     text-align: center;
 }
 
+.data-info {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
 .recovery-option {
     display: flex;
     flex-direction: row;
@@ -1102,6 +1109,10 @@ footer {
         align-items: center;
         width: 100%;
     }
+
+    .data-info {
+        width: 80%;
+    }
 }
 
 /* Recycle Page */
@@ -1124,6 +1135,8 @@ footer {
 }
 
 .recycleCard img {
+    width: 230px;
+    height: auto;
     border-radius: 25px;
     margin-top: 1rem;
 }
@@ -1136,6 +1149,65 @@ footer {
 .links {
     text-decoration: underline;
     color: blue;
+}
+
+.mail-in-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#mail-in-form {
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--color_2);
+    width: 90%;
+    margin-block: 2rem;
+    padding-block: 2rem;
+}
+
+#mail-in-form input {
+    text-align: left;
+    width: 100%;
+    padding-block: 7px;
+    padding-inline: 15px;
+}
+
+#mail-in-form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.info-form textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.address-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+#HTTPS-Message {
+    width: 100vw;
+    height: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#HTTPS-Message p {
+    margin: 0;
+    padding: 0;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1163,9 +1235,29 @@ footer {
     .recycleTextDiv {
         width: 70%;
     }
+
+    #mail-in-form div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /* Team Page */
+
+.team-gear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.team-gear img {
+    max-width: 50vw;
+    height: auto;
+    border-radius: 30px;
+}
 
 .team-container {
     display: flex;
@@ -1190,6 +1282,7 @@ footer {
     font-family: 'Figtree', sans-serif;
     width: 100%;
     min-height: 400px;
+    margin-top: 6.5rem;
     margin-bottom: 2rem;
 }
 
