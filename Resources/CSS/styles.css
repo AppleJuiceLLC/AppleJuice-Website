@@ -1162,15 +1162,29 @@ footer {
     font-family: 'Figtree', sans-serif;
     background-color: var(--color_2);
     width: 90%;
+    max-width: 1600px;
     margin-block: 2rem;
     padding-block: 2rem;
 }
 
 #mail-in-form input {
     text-align: left;
-    width: 100%;
+    width: 60vw;
+    max-width: 400px;
     padding-block: 7px;
     padding-inline: 15px;
+    background-color: var(--color_21);
+}
+
+#mail-in-form select {
+    width: 60vw;
+    max-width: 400px;
+    padding-block: 7px;
+    padding-inline: 15px;
+    background-color: var(--color_21);
+    border: none;
+    border-radius: 1px;
+    color: black;
 }
 
 #mail-in-form div {
@@ -1180,6 +1194,22 @@ footer {
     align-items: center;
 }
 
+#mail-in-form button {
+    font-size: 18px;
+    background-color: var(--color_5);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-block: 1rem;
+    padding-block: 10px;
+    padding-inline: 50px;
+    transition: transform 0.2s;
+}
+
+#mail-in-form button:hover {
+    transform: scale(1.15);
+}
+
 .info-form {
     display: flex;
     flex-direction: column;
@@ -1187,9 +1217,11 @@ footer {
 }
 
 .info-form textarea {
-    width: 100%;
+    width: 60vw;
+    max-width: 400px;
     height: 100px;
     resize: none;
+    background-color: var(--color_21);
 }
 
 .address-form {
