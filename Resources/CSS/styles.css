@@ -408,6 +408,7 @@ aside {
 
 .Why-Apple-Repair {
     background-color: var(--color_3);
+    border-radius: 25px;
 }
 
 .ceo-message {
@@ -742,7 +743,6 @@ footer {
 
     .sidebar-items-left a,
     .sidebar-items-right a {
-        /* padding: 0.5rem; */
         white-space: nowrap;
         padding: 0;
         color: var(--foreground);
