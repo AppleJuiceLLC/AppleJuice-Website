@@ -322,6 +322,7 @@ aside {
     background-color: var(--color_3);
     color: var(--color_10);
     min-width: 100vw;
+    min-height: 100vh;
     z-index: 10000;
 }
 
@@ -342,11 +343,22 @@ aside {
 .sidebar-items-left a,
 .sidebar-items-right a {
     font-size: 25px;
-    margin: 0;
-    padding: 1rem;
+    margin: 0.5rem;
+    padding: 10px;
+    width: 60vw;
     text-decoration: none;
+    text-align: center;
     font-family: 'Figtree', sans-serif;
     font-weight: bolder;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar-items-left a:hover,
+.sidebar-items-right a:hover {
+    box-shadow: 0px 2px 15px var(--color_19);
+    transform: scale(1.10);
 }
 
 /* Juice Up Section */
@@ -1074,29 +1086,14 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-top: 6.5rem;
 }
 
 .team-gear img {
-    max-width: 50vw;
+    max-width: 35vw;
     height: auto;
     border-radius: 30px;
-}
-
-.team-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-}
-
-.team-container img {
-    max-width: 80vw;
-    height: auto;
-    max-height: 640px;
-    margin-block: 1rem;
-    border-radius: 25px;
+    margin-inline: 2rem;
 }
 
 .join-team {
@@ -1106,8 +1103,8 @@ footer {
     font-family: 'Figtree', sans-serif;
     width: 100%;
     min-height: 400px;
-    margin-top: 6.5rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .apply-info {
@@ -1129,14 +1126,6 @@ footer {
 .apply-info p {
     font-size: 20px;
     color: white;
-}
-
-.team-header {
-    font-family: 'Figtree', sans-serif;
-    font-size: 30px;
-    margin-top: 6rem;
-    color: var(--color_27);
-    text-align: center;
 }
 
 #contact-form {
@@ -1185,6 +1174,32 @@ fieldset {
 
 #contact-form button:hover {
     transform: scale(1.15);
+}
+
+/* About Us Page */
+
+.team-header {
+    font-family: 'Figtree', sans-serif;
+    font-size: 30px;
+    margin-top: 6rem;
+    color: var(--color_27);
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.team-container img {
+    max-width: 80vw;
+    height: auto;
+    max-height: 650px;
+    margin-block: 1rem;
+    border-radius: 25px;
 }
 
 /* Locations Page */
@@ -1311,6 +1326,15 @@ p {
 
     .Juice-Up-Section p {
         padding-bottom: 2rem;
+    }
+
+    .team-gear {
+        flex-direction: column;
+    }
+
+    .team-gear img {
+        max-width: 80vw;
+        margin-bottom: 1rem;
     }
 }
 
