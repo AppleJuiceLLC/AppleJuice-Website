@@ -343,22 +343,13 @@ aside {
 .sidebar-items-left a,
 .sidebar-items-right a {
     font-size: 25px;
-    margin: 0.5rem;
+    margin: 0;
     padding: 10px;
     width: 60vw;
     text-decoration: none;
     text-align: center;
     font-family: 'Figtree', sans-serif;
     font-weight: bolder;
-    background-color: white;
-    border-radius: 25px;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
-}
-
-.sidebar-items-left a:hover,
-.sidebar-items-right a:hover {
-    box-shadow: 0px 2px 15px var(--color_19);
-    transform: scale(1.10);
 }
 
 /* Juice Up Section */
@@ -1338,6 +1329,22 @@ p {
     }
 }
 
+@media only screen and (max-width: 998px) {
+    .sidebar-items-left a,
+    .sidebar-items-right a {
+        margin: 0.5rem;
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    .sidebar-items-left a:hover,
+    .sidebar-items-right a:hover {
+        box-shadow: 0px 2px 15px var(--color_19);
+        transform: scale(1.10);
+    }
+}
+
 @media only screen and (max-width: 766px) {
     .swiper-inner-wrapper {
         min-height: 630px;
@@ -1383,7 +1390,7 @@ p {
 
 /* Min Width Media Queries */
 
-@media only screen and (min-width: 999px) {
+@media only screen and (min-width: 1000px) {
     .hamburger-menu {
         display: none;
     }
