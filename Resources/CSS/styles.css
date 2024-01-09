@@ -696,6 +696,13 @@ footer {
     color: white;
 }
 
+.disclaimer {
+    color: white;
+    margin-inline: 1.5rem;
+    font-family: 'Figtree', sans-serif;
+    font-size: small;
+}
+
 /* iPhone Page */
 
 .iPhoneHeader {
