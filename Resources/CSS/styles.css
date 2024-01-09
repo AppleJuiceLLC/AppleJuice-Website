@@ -974,7 +974,7 @@ footer {
     margin-inline: 2rem;
     margin-bottom: 2rem;
     border-radius: 25px;
-    color: white;
+    color: var(--color_27);
 }
 
 .recycleCard img {
@@ -986,7 +986,7 @@ footer {
 
 .recycleCard p {
     margin-inline: 1.5rem;
-    color: var(--color_27);
+    color: white;
 }
 
 .links {
@@ -1008,6 +1008,7 @@ footer {
     max-width: 1600px;
     margin-block: 2rem;
     padding-block: 2rem;
+    border-radius: 25px;
 }
 
 #mail-in-form input {
