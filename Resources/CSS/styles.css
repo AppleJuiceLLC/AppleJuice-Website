@@ -1274,8 +1274,6 @@ p {
     transform: scale(1.10);
 }
 
-
-
 /* Max Width Media Queries */
 
 @media only screen and (max-width: 1200px) {
