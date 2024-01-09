@@ -701,7 +701,8 @@ footer {
     margin-inline: 1rem;
     font-family: 'Figtree', sans-serif;
     font-size: 11px;
-    line-height: 0.3;
+    margin: 0;
+    padding: 0;
 }
 
 /* iPhone Page */
@@ -1363,6 +1364,13 @@ p {
 @media only screen and (max-width: 766px) {
     .swiper-inner-wrapper {
         min-height: 630px;
+    }
+}
+
+@media only screen and (max-width: 645px) {
+    .disclaimer {
+        text-align: left;
+        margin-inline: 15%;
     }
 }
 
