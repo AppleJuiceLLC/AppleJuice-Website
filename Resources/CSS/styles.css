@@ -696,11 +696,12 @@ footer {
     color: white;
 }
 
-.disclaimer {
+.disclaimer p {
     color: white;
-    margin-inline: 1.5rem;
+    margin-inline: 1rem;
     font-family: 'Figtree', sans-serif;
-    font-size: small;
+    font-size: 11px;
+    line-height: 0.3;
 }
 
 /* iPhone Page */
