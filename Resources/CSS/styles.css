@@ -319,7 +319,7 @@ aside {
     transition: transform var(--animation-timing);
     padding: 0.5rem 1rem;
     padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-    background-color: var(--color_3);
+    background-color: var(--color_22);
     color: var(--color_10);
     min-width: 100vw;
     z-index: 10000;
