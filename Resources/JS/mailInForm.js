@@ -12,7 +12,7 @@ if (window.location.protocol !== "https:") {
     // Optionally, show a warning message to the user
     const warningMsg = document.createElement("p");
     warningMsg.textContent = "This form requires a secure HTTPS connection to submit.";
-    warningMsg.style.color = "red";
+    warningMsg.style.color = "white";
     httpsArea.appendChild(warningMsg);
 } else {
     // Attach the event listener only if the protocol is HTTPS
