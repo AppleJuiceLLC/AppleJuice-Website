@@ -832,11 +832,12 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../Images/webp/shop\ page\ bg.webp');
-    background-image: url('../Images/jpg/shop-page-bg.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    /* background-image: url('../Images/webp/shop\ page\ bg.webp'); */
+    /* background-image: url('../Images/jpg/shop-page-bg.jpg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+    background-color: var(--color_22);
     margin-top: 4rem;
     height: 95vh;
     width: 100%;
