@@ -1058,6 +1058,11 @@ footer {
     display: flex;
     flex-direction: column;
     max-width: 50%;
+    border: none;
+}
+
+.info-form input {
+    border-radius: 10px;
 }
 
 .info-form textarea {
@@ -1066,12 +1071,22 @@ footer {
     height: 100px;
     resize: none;
     background-color: var(--color_21);
+    border-radius: 10px;
+}
+
+.info-form select {
+    border-radius: 10px;
 }
 
 .address-form {
     display: flex;
     flex-direction: column;
     max-width: 50%;
+    border: none;
+}
+
+.address-form input {
+    border-radius: 10px;
 }
 
 #HTTPS-Message {
@@ -1122,6 +1137,7 @@ footer {
     background-color: var(--color_5);
     width: 35%;
     padding-inline: 2rem;
+    border-radius: 25px;
 }
 
 .apply-info h1 {
@@ -1143,6 +1159,7 @@ footer {
     background-color: var(--color_2);
     width: 60%;
     padding-top: 1rem;
+    border-radius: 25px;
 }
 
 fieldset {
@@ -1164,6 +1181,8 @@ fieldset {
     width: 15vw;
     height: 35px;
     border: none;
+    border-radius: 10px;
+    padding-inline: 5px;
 }
 
 #contact-form button {
@@ -1268,6 +1287,7 @@ p {
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
     background-color: white;
     color: black;
+    text-wrap: nowrap;
 }
 
 .more-info:hover {
