@@ -1228,6 +1228,47 @@ fieldset {
     border-radius: 25px;
 }
 
+.members-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.member-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+    background-color: rgba(50, 134, 68, 0.6);
+    border: 5px solid rgb(50, 134, 68);
+}
+
+.team-member {
+    background-image: url('../Images/webp/team-member-icon.webp');
+    background-image: url('../Images/png/team-member-icon.png'), none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    max-height: 150px;
+    max-width: 150px;
+}
+
 /* Locations Page */
 
 .locations-div {
