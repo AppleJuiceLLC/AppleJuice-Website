@@ -154,6 +154,12 @@ a:visited {
     transition: transform 0.3s ease-in-out;
     transform: translateY(150%);
     z-index: 998;
+    /* Uncomment these lines below to pick up progress on fixing menu */
+    /* background-color: rgba(136, 204, 194, 0.75); */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 1); */
+    /* border-radius: 15px; */
+    /* margin-inline: 1rem; */
+    /* padding: 4rem; */
 }
 
 .Popup-Buttons div {
