@@ -1231,9 +1231,9 @@ fieldset {
 .members {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: auto;
     width: 100%;
     margin-bottom: 4rem;
 }
@@ -1245,6 +1245,7 @@ fieldset {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    margin: 0.5rem;
 }
 
 .green-container {
@@ -1629,6 +1630,12 @@ p {
         justify-content: center;
         align-items: center;
         margin-inline: 4rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .member-container {
+        width: calc(50% - 1rem);
     }
 }
 
