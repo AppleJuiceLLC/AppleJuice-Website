@@ -968,32 +968,47 @@ footer {
 /* Recycle Page */
 
 .recycleSection {
-    margin-bottom: 4rem;
-}
-
-.recycleCard {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-family: 'Figtree', sans-serif;
-    margin-inline: 2rem;
-    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.recycleCard {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color_22);
+    margin-block: 2rem;
     border-radius: 25px;
-    color: white;
+    margin-inline: 2.5rem;
+}
+
+.recycleImgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .recycleCard img {
-    width: 230px;
-    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    width: 200px;
+    height: 200px;
     border-radius: 25px;
-    margin-top: 1rem;
+    margin-left: 10px;
+}
+
+.recycleCard h2 {
+    margin-inline: 1.5rem;
 }
 
 .recycleCard p {
     margin-inline: 1.5rem;
-    color: var(--color_27);
+    color: black;
 }
 
 .links {
