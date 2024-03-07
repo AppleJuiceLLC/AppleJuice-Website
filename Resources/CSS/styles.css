@@ -80,32 +80,6 @@ a:visited {
     --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
-.repairPageHeader {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8rem;
-}
-
-.repairPageHeader h1 {
-    font-family: 'Figtree', sans-serif;
-    font-size: calc(2.2vh + 2.2vw);
-    text-align: center;
-    line-height: 1.2;
-    padding-inline: 1rem;
-    color: var(--color_27);
-}
-
-.repairPageHeader p {
-    font-family: 'Figtree', sans-serif;
-    font-size: calc(1.3vh + 1.3vw);
-    text-align: center;
-    line-height: 1.5;
-    max-width: 1000px;
-    color: white;
-}
-
 /* Contact button */
 
 .Contact-Button {
@@ -381,19 +355,21 @@ aside {
 
 .Juice-Up-Section h2 {
     font-family: 'Figtree', sans-serif;
-    font-size: calc(2.2vh + 2.2vw);
-    margin-bottom: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    color: white;
 }
 
 .Juice-Up-Section p {
     font-family: 'Figtree', sans-serif;
-    font-size: calc(1.3vh + 1.3vw);
+    font-weight: bold;
+    font-size: 25px;
     padding-inline: 2rem;
-    width: 65vw;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     color: white;
     padding: 1px;
-    margin-bottom: 2rem;
+    margin: 0;
 }
 
 /* Why Apple Repair Section */
@@ -962,6 +938,14 @@ footer {
 
 /* Recycle Page */
 
+.recyclePageHeader h1 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: var(--color_27);
+    margin-top: 8rem;
+}
+
 .recycleSection {
     display: flex;
     flex-direction: column;
@@ -995,8 +979,9 @@ footer {
     max-height: 200px;
     width: 200px;
     height: 200px;
-    border-radius: 25px;
-    margin-left: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    vertical-align: top;
 }
 
 .recycleCard h2 {
