@@ -689,23 +689,6 @@ footer {
 
 /* iPhone Page */
 
-.iPhoneHeader {
-    font-family: 'Figtree', sans-serif;
-    text-align: center;
-    margin-top: 4rem;
-}
-
-.iPhoneHeader h2 {
-    font-size: calc(2.2vh + 2.2vw);
-    color: var(--color_27);
-}
-
-.iPhoneHeader p {
-    font-size: calc(1.3vh + 1.3vw);
-    color: white;
-    margin-block: 10px;
-}
-
 .deviceListContainer {
     display: flex;
     justify-content: center;
@@ -1400,14 +1383,6 @@ p {
         width: 30vw;
     }
 
-    .Juice-Up-Section h2 {
-        padding-top: 2rem;
-    }
-
-    .Juice-Up-Section p {
-        padding-bottom: 2rem;
-    }
-
     .team-gear {
         flex-direction: column;
     }
@@ -1445,6 +1420,14 @@ p {
 @media only screen and (max-width: 645px) {
     .disclaimer {
         margin-inline: 15%;
+    }
+
+    .Juice-Up-Section h2 {
+        font-size: medium;
+    }
+
+    .Juice-Up-Section p {
+        font-size: small;
     }
 }
 
