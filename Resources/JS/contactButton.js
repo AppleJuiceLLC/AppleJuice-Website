@@ -1,25 +1,42 @@
-// Function to toggle the display of popup buttons
-function togglePopupButtons() {
-    const popupButtons = document.getElementById("Popup-Buttons");
+document.addEventListener('DOMContentLoaded', () => {
+    const contactButton = document.getElementById('Contact-Button');
+    const popupButtons = document.getElementById('Popup-Buttons');
+    const menuContent = document.querySelector('.buttonsContainer');
 
-    if (popupButtons.style.display === "flex") {
-        popupButtons.style.transform = "translateY(150%)";
+    function togglePopupButtons() {
+        if (popupButtons.style.display === 'flex') {
+            closePopupButtons();
+        } else {
+            openPopupButtons();
+        }
+    }
+
+    function openPopupButtons() {
+        popupButtons.style.display = 'flex';
         setTimeout(() => {
-            popupButtons.style.display = "none";
-        }, 300);
-    } else {
-        popupButtons.style.display = "flex";
-        setTimeout(() => {
-            popupButtons.style.transform = "translateY(0)";
+            popupButtons.style.transform = 'translateY(0)';
         }, 10);
     }
-}
 
-// Event listener for the Contact button
-document.getElementById("Contact-Button").addEventListener("click", togglePopupButtons);
+    function closePopupButtons() {
+        popupButtons.style.transform = 'translateY(150%)';
+        setTimeout(() => {
+            popupButtons.style.display = 'none';
+        }, 300);
+    }
 
-// Event listener for all <a class="more-info"> elements
-const moreInfoLinks = document.querySelectorAll(".more-info, .contact");
-moreInfoLinks.forEach(link => {
-    link.addEventListener("click", togglePopupButtons);
+    contactButton.addEventListener('click', (event) => {
+        togglePopupButtons();
+        event.stopPropagation();
+    });
+
+    document.addEventListener('click', (event) => {
+        if (popupButtons.style.display === 'flex' && !menuContent.contains(event.target)) {
+            closePopupButtons();
+        }
+    });
+
+    menuContent.addEventListener('click', (event) => {
+        event.stopPropagation();
+    });
 });
