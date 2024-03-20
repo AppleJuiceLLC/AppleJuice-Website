@@ -133,33 +133,40 @@ a:visited {
 
 .buttonsContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     /* background-color: rgba(136, 204, 194, 0.90); */
     background-color: white;
-    border: 4px solid rgb(14, 113, 67);
+    border: 4px solid rgb(7, 56, 34);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     border-radius: 15px;
     width: 40%;
-    height: 80%;
+    height: auto;
 }
 
 .booneButtons {
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .mooresvilleButtons {
     display: flex;
+    justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
 }
 
 .btn-container {
+    flex: 0 0 30%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
     width: 100%;
+    height: auto;
 }
 
 .buttonsContainer h3 {
@@ -203,6 +210,16 @@ a:visited {
 .popup-btn.messenger {
     background-image: url('../Images/webp/messenger.webp');
     background-image: url('../Images/png/messenger.png');
+}
+
+.popup-btn.facebook {
+    background-image: url('../Images/webp/facebook-contact.webp');
+    background-image: url('../Images/png/facebook-contact.png');
+}
+
+.popup-btn.instagram {
+    background-image: url('../Images/webp/instagram-contact.webp');
+    background-image: url('../Images/png/instagram-contact.png');
 }
 
 /* Navbar section */
