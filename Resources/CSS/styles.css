@@ -420,7 +420,8 @@ aside {
 }
 
 .Why-Apple-Repair {
-    background-color: var(--color_22);
+    /* background-color: var(--color_22); */
+    background-color: rgba(136, 204, 194, 0.77);
     border-radius: 25px;
 }
 
@@ -437,20 +438,23 @@ aside {
     font-size: 36px;
     text-align: center;
     margin-bottom: 0.5rem;
-    color: black;
+    /* color: black; */
+    color: white;
 }
 
 .ceo-message h4 {
     text-align: center;
     margin-top: 0;
-    color: var(--color_20);
+    /* color: var(--color_20); */
+    color: white;
 }
 
 .ceo-message p {
     font-family: 'Figtree', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    color: var(--color_5);
+    /* color: var(--color_5); */
+    color: white;
     padding-inline: 2rem;
     line-height: 2;
 }
@@ -462,7 +466,8 @@ aside {
     padding-bottom: 0.12rem;
     padding-inline: 1rem;
     right: 0;
-    color: var(--color_5);
+    /* color: var(--color_5); */
+    color: white;
     text-align: right;
 }
 
