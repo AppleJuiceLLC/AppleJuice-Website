@@ -1,5 +1,5 @@
 function adjustDivHeight() {
-    const baseHeight = 121;
+    const baseHeight = auto;
     const increment = 5;
     const width = $(window).width();
     
