@@ -363,7 +363,7 @@ aside {
 .Juice-Up-Section h2 {
     font-family: 'Figtree', sans-serif;
     font-size: 40px;
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 10px;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     color: white;
@@ -378,7 +378,7 @@ aside {
     color: white;
     padding-inline: 5px;
     margin: 0;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 /* Page Headers */
