@@ -120,6 +120,7 @@ a:visited {
 
 .Popup-Buttons {
     position: fixed;
+    top: 0;
     display: none;
     justify-content: center;
     align-items: center;
@@ -127,7 +128,7 @@ a:visited {
     transform: translateY(150%);
     z-index: 998;
     width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .buttonsContainer {
@@ -135,7 +136,9 @@ a:visited {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(136, 204, 194, 0.90);
+    /* background-color: rgba(136, 204, 194, 0.90); */
+    background-color: white;
+    border: 4px solid rgb(14, 113, 67);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
     border-radius: 15px;
     width: 40%;
@@ -428,7 +431,7 @@ aside {
 
 .Why-Apple-Repair {
     /* background-color: var(--color_22); */
-    background-color: rgba(136, 204, 194, 0.85);
+    background-color: rgba(136, 204, 194, 0.925);
     border-radius: 25px;
 }
 
