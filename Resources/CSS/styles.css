@@ -379,6 +379,26 @@ aside {
     margin: 0;
 }
 
+/* Page Headers */
+
+.pageHeader h1 {
+    font-family: 'Figtree', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: var(--color_27);
+    margin-top: 8rem;
+}
+
+.pageHeader p {
+    font-family: 'Figtree', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    /* color: var(--color_27); */
+    color: white;
+    margin-inline: 1rem;
+    margin-block: 0;
+}
+
 /* Why Apple Repair Section */
 
 .Boone-Store-Lobby {
@@ -929,13 +949,13 @@ footer {
 
 /* Recycle Page */
 
-.recyclePageHeader h1 {
+/* .recyclePageHeader h1 {
     font-family: 'Figtree', sans-serif;
     font-size: 40px;
     text-align: center;
     color: var(--color_27);
     margin-top: 8rem;
-}
+} */
 
 .recycleSection {
     display: flex;
