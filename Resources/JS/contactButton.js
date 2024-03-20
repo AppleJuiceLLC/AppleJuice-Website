@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactButton = document.getElementById('Contact-Button');
     const popupButtons = document.getElementById('Popup-Buttons');
     const menuContent = document.querySelector('.buttonsContainer');
+    const moreInfoLinks = document.querySelectorAll(".more-info, .contact");
 
     function togglePopupButtons() {
         if (popupButtons.style.display === 'flex') {
@@ -38,5 +39,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     menuContent.addEventListener('click', (event) => {
         event.stopPropagation();
+    });
+
+    moreInfoLinks.forEach(link => {
+        link.addEventListener("click", (event) => {
+            togglePopupButtons();
+            event.stopPropagation();
+        });
     });
 });
