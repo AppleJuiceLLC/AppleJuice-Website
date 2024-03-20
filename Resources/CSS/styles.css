@@ -40,6 +40,25 @@ a:visited {
     src: url(/Resources/Fonts/Figtree/Figtree-Regular.ttf) format('truetype');
 }
 
+/* Desktop Scrollbar Theme */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(27, 172, 123);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(136, 204, 194);
+}
+
 :root {
     --color_1: rgb(160, 226, 196);
     --color_2: rgb(111, 198, 158);
