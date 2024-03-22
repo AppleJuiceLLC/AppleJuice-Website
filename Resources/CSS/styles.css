@@ -809,7 +809,8 @@ footer {
 .deviceList a {
     background-color: white;
     font-family: 'Figtree', sans-serif;
-    font-size: calc(1.1vh + 1.1vw);
+    /* font-size: calc(1.1vh + 1.1vw); */
+    font-size: 17px;
     font-weight: bold;
     text-align: center;
     width: 80%;
