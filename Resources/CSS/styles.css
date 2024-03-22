@@ -1280,7 +1280,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-family: 'Figtree', sans-serif;
-    background-color: var(--color_2);
+    background-color: var(--color_22);
     width: 60%;
     padding-top: 1rem;
     border-radius: 25px;
@@ -1438,8 +1438,12 @@ fieldset {
     color: white;
 }
 
-.location-data h2,
-p {
+.location-data h2 {
+    font-family: 'Figtree', sans-serif;
+    color: var(--color_27);
+}
+
+.location-data p {
     font-family: 'Figtree', sans-serif;
     color: var(--color_27);
 }
