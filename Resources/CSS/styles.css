@@ -963,7 +963,7 @@ footer {
     display: flex;
     flex-direction: row;
     /* background-color: var(--color_22); */
-    background-color: rgba(136, 204, 194, 0.8);
+    background-color: rgba(136, 204, 194, 0.95);
     margin-block: 2rem;
     height: 200px;
     border-radius: 25px;
@@ -984,8 +984,12 @@ footer {
     padding-inline: 1rem;
 }
 
+.recovery-info h3 {
+    color: white;
+}
+
 .recovery-info p {
-    color: black;
+    color: white;
 }
 
 .recovery-info a {
@@ -1032,7 +1036,7 @@ footer {
     display: flex;
     flex-direction: row;
     /* background-color: var(--color_22); */
-    background-color: rgba(136, 204, 194, 0.8);
+    background-color: rgba(136, 204, 194, 0.95);
     margin-block: 2rem;
     border-radius: 25px;
     margin-inline: 2rem;
@@ -1058,11 +1062,12 @@ footer {
 
 .recycleCard h2 {
     margin-inline: 1.5rem;
+    color: white;
 }
 
 .recycleCard p {
     margin-inline: 1.5rem;
-    color: black;
+    color: white;
 }
 
 .recycleTextDiv {
