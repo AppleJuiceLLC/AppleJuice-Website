@@ -752,6 +752,21 @@ footer {
     height: 40px;
 }
 
+.youTubeLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100px;
+    height: auto;
+    border-radius: 25px;
+    padding-block: 2px;
+}
+
+.youTubeLink img {
+    vertical-align: top;
+}
+
 .copyright {
     font-family: 'Figtree', sans-serif;
     font-weight: lighter;
