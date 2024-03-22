@@ -385,16 +385,16 @@ aside {
     align-items: center;
 }
 
-.Juice-Up-Section {
+/* .Juice-Up-Section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 65px;
-    /* background:
+    background:
         linear-gradient(var(--color_26), var(--color_26)),
         url('../Images/webp/wheels\ lab\ light\ filter.webp'),
-        url('../Images/png/wheels-lab-light-filter.png'); */
+        url('../Images/png/wheels-lab-light-filter.png');
     background-blend-mode: color;
     background-size: cover;
     background-position: 50% 50%;
@@ -404,25 +404,38 @@ aside {
     max-width: 1440px;
     text-align: center;
     object-fit: cover;
+} */
+
+.Juice-Up-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    max-width: 1440px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 6rem;
 }
 
-.Juice-Up-Section h2 {
+.Juice-Up-Section h1 {
     font-family: 'Figtree', sans-serif;
-    font-size: 40px;
+    /* font-size: 40px; */
     margin-top: 25px;
     margin-bottom: 10px;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-    color: white;
+    /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
+    color: rgb(14, 113, 67);
 }
 
 .Juice-Up-Section p {
     font-family: 'Figtree', sans-serif;
-    font-weight: bold;
-    font-size: 25px;
+    /* font-weight: bold; */
+    /* font-size: 25px; */
     padding-inline: 2rem;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
-    color: white;
-    padding-inline: 5px;
+    /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
+    color: darkslategray;
     margin: 0;
     margin-bottom: 25px;
 }
