@@ -948,7 +948,8 @@ footer {
 .recovery-option {
     display: flex;
     flex-direction: row;
-    background-color: var(--color_22);
+    /* background-color: var(--color_22); */
+    background-color: rgba(136, 204, 194, 0.8);
     margin-block: 2rem;
     height: 200px;
     border-radius: 25px;
@@ -1002,14 +1003,6 @@ footer {
 
 /* Recycle Page */
 
-/* .recyclePageHeader h1 {
-    font-family: 'Figtree', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: var(--color_27);
-    margin-top: 8rem;
-} */
-
 .recycleSection {
     display: flex;
     flex-direction: column;
@@ -1024,7 +1017,8 @@ footer {
 .recycleCard {
     display: flex;
     flex-direction: row;
-    background-color: var(--color_22);
+    /* background-color: var(--color_22); */
+    background-color: rgba(136, 204, 194, 0.8);
     margin-block: 2rem;
     border-radius: 25px;
     margin-inline: 2rem;
