@@ -1217,7 +1217,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6.5rem;
+    /* margin-top: 6.5rem; */
+    margin-top: 2rem;
 }
 
 .team-gear img {
@@ -1234,7 +1235,7 @@ footer {
     font-family: 'Figtree', sans-serif;
     width: 100%;
     min-height: 400px;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
@@ -1312,14 +1313,6 @@ fieldset {
 }
 
 /* About Us Page */
-
-.team-header {
-    font-family: 'Figtree', sans-serif;
-    font-size: 30px;
-    margin-top: 6rem;
-    color: var(--color_27);
-    text-align: center;
-}
 
 .team-container {
     display: flex;
