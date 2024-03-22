@@ -391,10 +391,10 @@ aside {
     justify-content: center;
     align-items: center;
     margin-top: 65px;
-    background:
+    /* background:
         linear-gradient(var(--color_26), var(--color_26)),
         url('../Images/webp/wheels\ lab\ light\ filter.webp'),
-        url('../Images/png/wheels-lab-light-filter.png');
+        url('../Images/png/wheels-lab-light-filter.png'); */
     background-blend-mode: color;
     background-size: cover;
     background-position: 50% 50%;
