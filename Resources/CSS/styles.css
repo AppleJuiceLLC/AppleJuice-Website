@@ -896,8 +896,15 @@ footer {
     font-size: 16px;
 }
 
-.swiperSlideHeight {
+/* This rule doesn't seem to affect anything. Wait to see... */
+/* .swiperSlideHeight {
     min-height: 400px;
+} */
+
+.macModelDisclaimer p {
+    font-size: x-small;
+    margin-inline: 1rem;
+    margin-top: 1.5rem;
 }
 
 /* Shop Page */
@@ -1561,7 +1568,26 @@ fieldset {
     }
 
     .swiper-inner-wrapper {
-        min-height: 630px;
+        /* min-height: 630px; */
+        height: auto;
+    }
+
+    .swiperContent {
+        padding-bottom: 1rem;
+    }
+
+    .macModelDisclaimer p {
+        margin-top: 0;
+    }
+
+    .swiper-button-next::after {
+        position: absolute;
+        top: 35px;
+    }
+
+    .swiper-button-prev::after {
+        position: absolute;
+        top: 35px;
     }
 }
 
