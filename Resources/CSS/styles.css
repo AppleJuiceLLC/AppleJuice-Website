@@ -422,7 +422,7 @@ aside {
 
 .Juice-Up-Section h1 {
     font-family: 'Figtree', sans-serif;
-    /* font-size: 40px; */
+    font-size: 34px;
     margin-top: 25px;
     margin-bottom: 10px;
     /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
@@ -495,7 +495,7 @@ aside {
 }
 
 .ceo-message h1 {
-    font-size: 36px;
+    font-size: 34px;
     text-align: center;
     margin-bottom: 0.5rem;
     /* color: black; */
