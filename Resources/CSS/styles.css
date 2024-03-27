@@ -422,7 +422,7 @@ aside {
 
 .Juice-Up-Section h1 {
     font-family: 'Figtree', sans-serif;
-    font-size: 34px;
+    font-size: 37px;
     margin-top: 25px;
     margin-bottom: 10px;
     /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
@@ -433,7 +433,7 @@ aside {
     font-family: 'Figtree', sans-serif;
     /* font-weight: bold; */
     /* font-size: 25px; */
-    font-size: 17px;
+    font-size: 20px;
     padding-inline: 2rem;
     /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
     color: darkslategray;
@@ -1608,13 +1608,20 @@ fieldset {
         margin-inline: 15%;
     }
 
-    .Juice-Up-Section h2 {
-        font-size: medium;
+    .Juice-Up-Section h1 {
+        font-size: 26px;
     }
 
     .Juice-Up-Section p {
-        /* font-size: small; */
-        font-size: 14px;
+        font-size: 18px;
+    }
+
+    .ceo-message h1 {
+        font-size: 26px;
+    }
+
+    .ceo-message p {
+        font-size: 18px;
     }
 }
 
