@@ -1006,7 +1006,8 @@ footer {
 }
 
 .recovery-info h3 {
-    color: white;
+    /* color: white; */
+    color: rgb(14, 113, 67);
 }
 
 .recovery-info p {
@@ -1093,6 +1094,10 @@ footer {
 
 .recycleTextDiv {
     position: relative;
+}
+
+.recycleTextDiv h2 {
+    color: rgb(14, 113, 67);
 }
 
 .recycleContact {
