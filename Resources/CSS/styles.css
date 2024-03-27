@@ -433,6 +433,7 @@ aside {
     font-family: 'Figtree', sans-serif;
     /* font-weight: bold; */
     /* font-size: 25px; */
+    font-size: 17px;
     padding-inline: 2rem;
     /* text-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
     color: darkslategray;
@@ -1611,7 +1612,8 @@ fieldset {
     }
 
     .Juice-Up-Section p {
-        font-size: small;
+        /* font-size: small; */
+        font-size: 14px;
     }
 }
 
