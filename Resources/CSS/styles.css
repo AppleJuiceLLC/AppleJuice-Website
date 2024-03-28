@@ -479,20 +479,20 @@ aside {
     object-fit: cover;
 }
 
-.Why-Apple-Repair {
-    /* background-color: var(--color_22); */
+/* .Why-Apple-Repair {
     background-color: rgba(136, 204, 194, 0.925);
     border-radius: 25px;
     height: auto;
-}
+} */
 
 .ceo-message {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -4rem;
-    padding-top: 5rem;
     font-family: 'Figtree', sans-serif;
+    background-color: rgba(136, 204, 194, 0.925);
+    border-radius: 25px;
+    height: auto;
 }
 
 .ceo-message h1 {
@@ -530,6 +530,7 @@ aside {
     /* color: var(--color_5); */
     color: white;
     text-align: right;
+    width: 100%;
 }
 
 .ceo h5 {
@@ -1567,6 +1568,14 @@ fieldset {
         box-shadow: 0px 2px 15px white;
         transform: scale(1.10);
     }
+
+    .Boone-Store-Lobby {
+        margin-bottom: -4rem;
+    }
+
+    .Why-Apple-Repair div {
+        padding-top: 5rem;
+    }
 }
 
 @media only screen and (max-width: 766px) {
@@ -1690,6 +1699,16 @@ fieldset {
 }
 
 /* Min Width Media Queries */
+
+@media only screen and (min-width: 1440px) {
+    .intro div {
+        max-width: 750px;
+    }
+    
+    .ceo-message {
+        max-width: 750px;
+    }
+}
 
 @media only screen and (min-width: 1000px) {
     .hamburger-menu {
