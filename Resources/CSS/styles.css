@@ -479,17 +479,12 @@ aside {
     object-fit: cover;
 }
 
-/* .Why-Apple-Repair {
-    background-color: rgba(136, 204, 194, 0.925);
-    border-radius: 25px;
-    height: auto;
-} */
-
 .ceo-message {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Figtree', sans-serif;
+    text-align: center;
     background-color: rgba(136, 204, 194, 0.925);
     border-radius: 25px;
     height: auto;
