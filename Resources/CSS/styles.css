@@ -479,15 +479,16 @@ aside {
     object-fit: cover;
 }
 
+.Why-Apple-Repair {
+    background-color: rgba(136, 204, 194, 0.925);
+    border-radius: 25px;
+}
+
 .ceo-message {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Figtree', sans-serif;
-    text-align: center;
-    background-color: rgba(136, 204, 194, 0.925);
-    border-radius: 25px;
-    height: auto;
 }
 
 .ceo-message h1 {
@@ -525,7 +526,6 @@ aside {
     /* color: var(--color_5); */
     color: white;
     text-align: right;
-    width: 100%;
 }
 
 .ceo h5 {
@@ -1694,16 +1694,6 @@ fieldset {
 }
 
 /* Min Width Media Queries */
-
-@media only screen and (min-width: 1440px) {
-    .intro div {
-        max-width: 750px;
-    }
-    
-    .ceo-message {
-        max-width: 750px;
-    }
-}
 
 @media only screen and (min-width: 1000px) {
     .hamburger-menu {
