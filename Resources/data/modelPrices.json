@@ -453,5 +453,85 @@
         "screen": "$84.95",
         "battery": "$74.95",
         "cPort": "$134.95"
+    },
+    "watch845": {
+        "screen": "- Call for more information",
+        "battery": "- Call for more information"
+    },
+    "watch841": {
+        "screen": "- Call for more information",
+        "battery": "- Call for more information"
+    },
+    "watchSE244": {
+        "screen": "$214.95",
+        "battery": "- Call for more information"
+    },
+    "watchSE240": {
+        "screen": "$174.95",
+        "battery": "- Call for more information"
+    },
+    "watch745": {
+        "screen": "$174.95",
+        "battery": "$99.95"
+    },
+    "watch741": {
+        "screen": "$174.95",
+        "battery": "$99.95"
+    },
+    "watch644": {
+        "screen": "$179.95",
+        "battery": "$94.95"
+    },
+    "watch640": {
+        "screen": "$174.95",
+        "battery": "$94.95"
+    },
+    "watchSE144": {
+        "screen": "$214.95",
+        "battery": "$74.95"
+    },
+    "watchSE140": {
+        "screen": "$174.95",
+        "battery": "$74.95"
+    },
+    "watch544": {
+        "screen": "$214.95",
+        "battery": "$74.95"
+    },
+    "watch540": {
+        "screen": "$174.95",
+        "battery": "$74.95"
+    },
+    "watch444": {
+        "screen": "$184.95",
+        "battery": "$74.95"
+    },
+    "watch440": {
+        "screen": "$164.95",
+        "battery": "$74.95"
+    },
+    "watch342": {
+        "screen": "$149.95",
+        "battery": "$79.95"
+    },
+    "watch338": {
+        "screen": "$134.95",
+        "battery": "$74.95"
+    },
+    "watch242": {
+        "screen": "$124.95",
+        "battery": "$49.95"
+    },
+    "watch238": {
+        "screen": "$124.95",
+        "battery": "$49.95"
+    },
+    "watch142": {
+        "screen": "$99.95",
+        "battery": "$49.95"
+    },
+    "watch138": {
+        "screen": "$99.95",
+        "battery": "$49.95"
     }
 }
