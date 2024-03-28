@@ -138,5 +138,179 @@
     "A1418": {
         "displayReplacement": "$499.95",
         "hardDriveReplacement": "Call for more information"
+    },
+    "iPhone14PM": {
+        "screen": "$374.95",
+        "battery": "$174.95",
+        "cPort": "$174.95",
+        "back": "$324.95"
+    },
+    "iPhone14P": {
+        "screen": "$324.95",
+        "battery": "$174.95",
+        "cPort": "$174.95",
+        "back": "$319.95"
+    },
+    "iPhone14+": {
+        "screen": "$329.95",
+        "battery": "$174.95",
+        "cPort": "$174.95",
+        "back": "$199.95"
+    },
+    "iPhone14": {
+        "screen": "$244.95",
+        "battery": "$174.95",
+        "cPort": "$199.95",
+        "back": "$199.95"
+    },
+    "iPhoneSE3": {
+        "screen": "$109.95",
+        "battery": "$84.95",
+        "cPort": "$99.95",
+        "back": "$134.95"
+    },
+    "iPhone13PM": {
+        "screen": "$299.95",
+        "battery": "$149.95",
+        "cPort": "$174.95",
+        "back": "$274.95"
+    },
+    "iPhone13P": {
+        "screen": "$299.95",
+        "battery": "$139.95",
+        "cPort": "$149.95",
+        "back": "$249.95"
+    },
+    "iPhone13": {
+        "screen": "$234.95",
+        "battery": "$129.95",
+        "cPort": "$139.95",
+        "back": "$224.95"
+    },
+    "iPhone13M": {
+        "screen": "$239.95",
+        "battery": "$129.95",
+        "cPort": "$119.95",
+        "back": "$229.95"
+    },
+    "iPhone12PM": {
+        "screen": "$179.95",
+        "battery": "$134.95",
+        "cPort": "$129.95",
+        "back": "$209.95"
+    },
+    "iPhone12P": {
+        "screen": "$179.95",
+        "battery": "$119.95",
+        "cPort": "$119.95",
+        "back": "$209.95"
+    },
+    "iPhone12": {
+        "screen": "$179.95",
+        "battery": "$119.95",
+        "cPort": "$119.95",
+        "back": "$199.95"
+    },
+    "iPhone12M": {
+        "screen": "$169.95",
+        "battery": "$119.95",
+        "cPort": "$119.95",
+        "back": "$199.95"
+    },
+    "iPhoneSE2": {
+        "screen": "$109.95",
+        "battery": "$74.95",
+        "cPort": "$84.95",
+        "back": "$134.95"
+    },
+    "iPhone11PM": {
+        "screen": "$169.95",
+        "battery": "$124.95",
+        "cPort": "$129.95",
+        "back": "$249.95"
+    },
+    "iPhone11P": {
+        "screen": "$159.95",
+        "battery": "$119.95",
+        "cPort": "$129.95",
+        "back": "$224.95"
+    },
+    "iPhone11": {
+        "screen": "$124.95",
+        "battery": "$109.95",
+        "cPort": "$109.95",
+        "back": "$199.95"
+    },
+    "iPhoneXSM": {
+        "screen": "$154.95",
+        "battery": "$84.95",
+        "cPort": "$99.95",
+        "back": "$174.95"
+    },
+    "iPhoneXS": {
+        "screen": "$149.95",
+        "battery": "$84.95",
+        "cPort": "$99.95",
+        "back": "$174.95"
+    },
+    "iPhoneXR": {
+        "screen": "$124.95",
+        "battery": "$84.95",
+        "cPort": "$99.95",
+        "back": "$174.95"
+    },
+    "iPhoneX": {
+        "screen": "$144.95",
+        "battery": "$84.95",
+        "cPort": "$99.95",
+        "back": "$154.95"
+    },
+    "iPhone8+": {
+        "screen": "$109.95",
+        "battery": "$74.95",
+        "cPort": "$84.95",
+        "back": "$134.95"
+    },
+    "iPhone8": {
+        "screen": "$109.95",
+        "battery": "$74.95",
+        "cPort": "$84.95",
+        "back": "$134.95"
+    },
+    "iPhone7+": {
+        "screen": "$94.95",
+        "battery": "$64.95",
+        "cPort": "$74.95",
+        "back": "$0"
+    },
+    "iPhone7": {
+        "screen": "$94.95",
+        "battery": "$64.95",
+        "cPort": "$74.95",
+        "back": "$0"
+    },
+    "iPhone6S+": {
+        "screen": "$89.95",
+        "battery": "$54.95",
+        "cPort": "$64.95",
+        "back": "$0"
+    },
+    "iPhone6S": {
+        "screen": "$89.95",
+        "battery": "$54.95",
+        "cPort": "$64.95",
+        "back": "$0"
+    },
+    "iPhone6+": {
+        "screen": "$79.95",
+        "battery": "$54.95",
+        "cPort": "$64.95",
+        "back": "$0"
+    },
+    "iPhone6": {
+        "screen": "$79.95",
+        "battery": "$54.95",
+        "cPort": "$59.95",
+        "back": "$0"
     }
 }

@@ -1,0 +1,641 @@
+My HTML
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mac Repair | AppleJuice iRepair</title>
+        <link rel="icon" type="image/webp" href="../Images/webp/ijuice_icon PNG noBG.webp">
+        <link rel="icon" type="image/png" href="../Images/png/iJuice_icon PNG noBG.png">
+        <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/swiper-bundle.min.css">
+        <script>
+            window.onload = function () {
+                window.scroll({
+                    top: 0,
+                    left: 0,
+                    behavior: 'smooth'
+                });
+            };
+        </script>
+        <script src="../JS/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="../JS/swiper-bundle.min.js"></script>
+    </head>
+
+    <body>
+        <div class="Navbar" id="Navbar">
+            <a href="../../index.html">
+                <picture class="navbar-logo" id="navbar-logo">
+                    <source srcset="../Images/webp/navbar logo.webp" type="image/webp">
+                    <img src="../Images/png/navbar logo.png" alt="Image">
+                </picture>
+            </a>
+            <label class="hamburger-menu">
+                <input type="checkbox" id="hamburger-checkbox">
+            </label>
+            <aside class="sidebar" id="sidebar">
+                <nav class="sidebar-items-left">
+                    <a href="../HTML/Mac.html">Mac</a>
+                    <a href="../HTML/iPhone.html">iPhone</a>
+                    <a href="../HTML/iPad.html">iPad</a>
+                    <a href="../HTML/Watch.html">Watch</a>
+                </nav>
+                <a href="../../index.html">
+                    <picture class="dt-nav-logo" id="dt-nav-logo">
+                        <source srcset="../Images/webp/navbar logo.webp" type="image/webp">
+                        <img src="../Images/png/navbar logo.png" alt="Image">
+                    </picture>
+                </a>
+                <nav class="sidebar-items-right">
+                    <a href="../HTML/DataRecovery.html">Data</a>
+                    <a href="../HTML/Recycle.html">Recycle</a>
+                    <a href="../HTML/Learn.html">Learn</a>
+                    <a href="https://7ebaf4-2c.myshopify.com/password">Shop</a>
+                </nav>
+            </aside>
+        </div>
+        <a class="Contact-Button" id="Contact-Button">
+            <div class="dots"></div>
+            <div class="dots"></div>
+            <div class="dots"></div>
+        </a>
+        <div id="Popup-Buttons" class="Popup-Buttons hidden">
+            <div class="buttonsContainer">
+                <div>
+                    <div>
+                        <h3>Boone</h3>
+                    </div>
+                    <div class="booneButtons">
+                        <div class="btn-container">
+                            <a href="tel:+18283861945" class="popup-btn phone"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="mailto:service@apple-juice.com" class="popup-btn email"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://m.me/AppleJuiceLLC2/" class="popup-btn messenger" target="_blank"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://www.facebook.com/AppleJuiceLLC2/" class="popup-btn facebook" target="_blank"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://www.instagram.com/applejuice_boone/?igsh=OGpwOXBrZ2FteGRk" class="popup-btn instagram" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Mooresville</h3>
+                    </div>
+                    <div class="mooresvilleButtons">
+                        <div class="btn-container">
+                            <a href="tel:+17046629228" class="popup-btn phone"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="mailto:service@apple-juice.com" class="popup-btn email"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://m.me/AppleJuiceLLC3/" class="popup-btn messenger" target="_blank"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://www.facebook.com/AppleJuiceLLC3/" class="popup-btn facebook" target="_blank"></a>
+                        </div>
+                        <div class="btn-container">
+                            <a href="https://www.instagram.com/applejuice_mooresville/?hl=en" class="popup-btn instagram" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="Juice-Up-Section" id="Juice-Up-Section">
+            <h2>Mac Repair Options.</h2>
+            <p class="adjustTextSize">
+                We offer multiple In-Store Repair options with FREE Diagnostics!
+            </p>
+            <p class="adjustTextSize">
+                Below are the different types of Apple Computers we service.
+            </p>
+        </div> -->
+        <div class="pageHeader">
+            <h1>Mac Repair Options.</h1>
+            <p>
+                We offer multiple other In-Store Repair options with FREE Diagnostics!
+            </p>
+        </div>
+        <div class="deviceListContainer" id="deviceListContainer">
+            <div class="deviceList" id="deviceList">
+                <a href="#slide1" class="slide-link">MacBook Pro</a>
+                <a href="#slide2" class="slide-link">MacBook Air</a>
+                <a href="#slide3" class="slide-link">MacBook</a>
+                <a href="#slide4" class="slide-link">iMac</a>
+            </div>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide swiperSlideHeight">
+                    <div class="swiper-inner-wrapper">
+                        <div class="swiperDevice">
+                            <h2>MacBook Pro</h2>
+                            <picture>
+                                <source srcset="../Images/webp/MacBook Pro.webp" type="image/webp">
+                                <img src="../Images/jpg/MacBook Pro.jpg" alt="MacBook Pro Image">
+                            </picture>
+                        </div>
+                        <div class="swiperContent">
+                            <h3>Which MacBook Pro do you have?</h3>
+                            <div class="dropdown">
+                                <select id="laptopModelsPro">
+                                    <option value="" disabled selected>Select a MacBook Model</option>
+                                    <option value="A2485">Pro 16" (A2485)</option>
+                                    <option value="A2141">Pro 16" (A2141)</option>
+                                    <option value="A2442">Pro 14" (A2442)</option>
+                                    <option value="A2338">Pro 13" (A2338)</option>
+                                    <option value="A2289">Pro 13" (A2289)</option>
+                                    <option value="A2251">Pro 13" (A2251)</option>
+                                    <option value="A2159">Pro 13" (A2159)</option>
+                                    <option value="A1990">Pro Touch Bar 15" (A1990)</option>
+                                    <option value="A1707">Pro Touch Bar 15" (A1707)</option>
+                                    <option value="A1989">Pro Touch Bar 13" (A1989)</option>
+                                    <option value="A1706">Pro Touch Bar 13" (A1706)</option>
+                                    <option value="A1398">Pro Retina 15" (A1398)</option>
+                                    <option value="A1708">Pro Retina 13" (A1708)</option>
+                                    <option value="A1502">Pro Retina 13" (A1502)</option>
+                                    <option value="A1425">Pro Retina 13" (A1425)</option>
+                                    <option value="A1297">Pro Unibody 17" (A1297)</option>
+                                    <option value="A1286">Pro Unibody 15" (A1286)</option>
+                                    <option value="A1278">Pro Unibody 13" (A1278)</option>
+                                </select>
+                            </div>
+                            <div id="infoPro">
+                                <h3>Repair Options</h3>
+                                <p>Display Replacement</p>
+                                <p class="display-replacement"></p>
+                                <p>Battery Replacement</p>
+                                <p class="battery-replacement"></p>
+                                <a class="more-info">Call today for more information</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="macModelDisclaimer">
+                        <p>*MacBook Model Numbers may be found on the back of your device.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideHeight">
+                    <div class="swiper-inner-wrapper">
+                        <div class="swiperDevice">
+                            <h2>MacBook Air</h2>
+                            <picture>
+                                <source srcset="../Images/webp/MacBook Air.webp" type="image/webp">
+                                <img src="../Images/jpg/MacBook Air.jpg" alt="MacBook Air Image">
+                            </picture>
+                        </div>
+                        <div class="swiperContent">
+                            <h3>Which MacBook Air do you have?</h3>
+                            <div class="dropdown">
+                                <select id="laptopModelsAir">
+                                    <option value="" disabled selected>Select a MacBook Model</option>
+                                    <option value="A2941">Air 15" (A2941)</option>
+                                    <option value="A2681">Air 13" (A2681)</option>
+                                    <option value="A2337">Air 13" (A2337)</option>
+                                    <option value="A2179">Air 13" (A2179)</option>
+                                    <option value="A1932">Air 13" (A1932)</option>
+                                    <option value="A1466">Air 13" (A1466)</option>
+                                    <option value="A1369">Air 13" (A1369)</option>
+                                    <option value="A1465">Air 11" (A1465)</option>
+                                    <option value="A1370">Air 11" (A1370)</option>
+                                </select>
+                            </div>
+                            <div id="infoAir">
+                                <h3>Repair Options</h3>
+                                <p>Display Replacement</p>
+                                <p class="display-replacement"></p>
+                                <p>Battery Replacement</p>
+                                <p class="battery-replacement"></p>
+                                <a class="more-info">Call today for more information</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="macModelDisclaimer">
+                        <p>*MacBook Model Numbers may be found on the back of your device.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideHeight">
+                    <div class="swiper-inner-wrapper">
+                        <div class="swiperDevice">
+                            <h2>MacBook</h2>
+                            <picture>
+                                <source srcset="../Images/webp/MacBook Retina.webp" type="image/webp">
+                                <img src="../Images/jpg/MacBook Retina.jpg" alt="MacBook Image">
+                            </picture>
+                        </div>
+                        <div class="swiperContent">
+                            <h3>Which MacBook do you have?</h3>
+                            <div class="dropdown">
+                                <select id="laptopModelsMacBook">
+                                    <option value="" disabled selected>Select a MacBook Model</option>
+                                    <option value="A1181">13" (A1181)</option>
+                                    <option value="A1534">Retina 12" (A1534)</option>
+                                    <option value="A1342">Unibody 13" (A1342)</option>
+                                    <option value="A1278">Unibody 13" (A1278)</option>
+                                </select>
+                            </div>
+                            <div id="infoMacBook">
+                                <h3>Repair Options</h3>
+                                <p>Display Replacement</p>
+                                <p class="display-replacement"></p>
+                                <p>Battery Replacement</p>
+                                <p class="battery-replacement"></p>
+                                <a class="more-info">Call today for more information</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="macModelDisclaimer">
+                        <p>*MacBook Model Numbers may be found on the back of your device.</p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiperSlideHeight">
+                    <div class="swiper-inner-wrapper">
+                        <div class="swiperDevice">
+                            <h2>iMac</h2>
+                            <picture>
+                                <source srcset="../Images/webp/iMac.webp" type="image/webp">
+                                <img src="../Images/jpg/iMac.jpg" alt="iMac Image">
+                            </picture>
+                        </div>
+                        <div class="swiperContent">
+                            <h3>Which iMac do you have?</h3>
+                            <div class="dropdown">
+                                <select id="iMacModels">
+                                    <option value="" disabled selected>Select an iMac Model</option>
+                                    <option value="A2115">27" (A2115)</option>
+                                    <option value="A1862">27" (A1862)</option>
+                                    <option value="A1419">27" (A1419)</option>
+                                    <option value="A1418">21.5" (A1418)</option>
+                                </select>
+                            </div>
+                            <div id="infoiMac">
+                                <h3>Repair Options</h3>
+                                <p>Display Replacement</p>
+                                <p class="display-replacement"></p>
+                                <p>Hard Drive Replacement</p>
+                                <p class="hard-drive-replacement"></p>
+                                <a class="more-info">Call today for more information</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="macModelDisclaimer">
+                        <p>*iMac Model Numbers may be found on the bottom of the stand.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <form class="lookup-form" id="lookup-form" method="get" action="https://everymac.com/ultimate-mac-lookup/"
+            target="_blank">
+            <div id="searchBox">
+                <h2>Not sure what kind of Mac you have?</h2>
+                <p>Enter your Mac serial number below</p>
+                <input type="text" name="search_keywords" value>
+                <input type="submit" value="Lookup">
+            </div>
+        </form>
+
+        <div class="testimonial-container" id="testimonial-container">
+            <div class="Testimonials-Section" id="Testimonials-Section">
+                <div class="testimonial">
+                    <h4>Angie P.</h4>
+                    <div class="separator-line"></div>
+                    <p>
+                        “The price was reasonable, cheaper than what a competitor told me. The staff is very kind & knowledgeable. I'll return if I have any other issues with my Apple products."
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <h4>Alicia N.</h4>
+                    <div class="separator-line"></div>
+                    <p>
+                        "Great service and reasonable pricing, also super fast. The team is very friendly, I highly recommend this business.”
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <h4>Renard B.</h4>
+                    <div class="separator-line"></div>
+                    <p>
+                        “Awesome place to get your Macs fixed. Had several computers fixed and updated. They are working great. Thanks again!”
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <h4>Ryan L.</h4>
+                    <div class="separator-line"></div>
+                    <p>
+                        “Great staff! Very helpful and honest. Will be back with any other issues I run into with my Apple products.”
+                    </p>
+                </div>
+                <div class="testimonial">
+                    <h4>Ryan J.</h4>
+                    <div class="separator-line"></div>
+                    <p>
+                        “Took my phone with a broken screen. Had a new screen within 30 minutes. Screen looks great and was completed in a timely manner. Great service too!”
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial-dots" id="testimonial-dots">
+                <div class="dot active" onclick="showTestimonial(0)"></div>
+                <div class="dot" onclick="showTestimonial(1)"></div>
+                <div class="dot" onclick="showTestimonial(2)"></div>
+                <div class="dot" onclick="showTestimonial(3)"></div>
+                <div class="dot" onclick="showTestimonial(4)"></div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="Footer-Links" id="Footer-Links">
+                <a href="About.html">About Us</a>
+                <a class="contact">Contact Us</a>
+                <a href="Team.html">Join Our Team</a>
+                <a href="locations.html">Locations / Maps</a>
+            </div>
+            <div class="Socials" id="Socials">
+                <!-- <a href="https://www.instagram.com/applejuice_mooresville/?hl=en" target="_blank">
+                    <picture>
+                        <source srcset="../Images/webp/instagram.webp" type="image/webp">
+                        <img src="../Images/png/instagram.png" alt="Instagram Link">
+                    </picture>
+                </a>
+                <a href="https://www.facebook.com/AppleJuiceLLC2/" target="_blank">
+                    <picture>
+                        <source srcset="../Images/webp/facebook.webp" type="image/webp">
+                        <img src="../Images/png/facebook.png" alt="FaceBook Boone Link">
+                    </picture>
+                </a>
+                <a href="https://www.facebook.com/AppleJuiceLLC3/" target="_blank">
+                    <picture>
+                        <source srcset="../Images/webp/facebook.webp" type="image/webp">
+                        <img src="../Images/png/facebook.png" alt="FaceBook Mooresville Link">
+                    </picture>
+                </a> -->
+                <a href="https://www.youtube.com/@AppleJuiceiRepairWinstonSalem" target="_blank" class="youTubeLink">
+                    <picture>
+                        <source src="../Images/webp/YT-icon-green.webp">
+                        <img src="../Images/png/YT-icon-green.png" alt="YouTube Link">
+                    </picture>
+                </a>
+            </div>
+            <h5 class="copyright" id="copyright">© 2023 by AppleJuice, Llc.</h5>
+            <div class="disclaimer">
+                <p>All product and company names are trademarks of their respective holders.</p>
+                <p>iPhone, iPad, iPod, iPod Touch, Mac, and iMac are registered trademarks and property of Apple, Inc.</p>
+                <p>AppleJuice is a third-party repair company and is not affiliated with Apple.</p>
+            </div>
+        </footer>
+        <script src="../JS/macInfo.js"></script>
+        <script src="../JS/swiperActivator.js"></script>
+        <script src="../JS/hamburgerMenu.js"></script>
+        <script src="../JS/contactButton.js"></script>
+        <script src="../JS/juiceUpResize.js"></script>
+        <script src="../JS/testimonials.js"></script>
+    </body>
+</html>
+
+My CSS
+
+.lookup-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Figtree', sans-serif;
+    text-align: center;
+}
+
+.lookup-form input {
+    margin-block: 2rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#laptopModels {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.macModelDisclaimer p {
+    font-size: x-small;
+    margin-inline: 1rem;
+    margin-top: 1.5rem;
+}
+
+My JS
+
+const menuPro = document.getElementById("laptopModelsPro");
+const menuAir = document.getElementById("laptopModelsAir");
+const menuMacBook = document.getElementById("laptopModelsMacBook");
+const menuiMac = document.getElementById("iMacModels");
+const infoDivPro = document.getElementById("infoPro");
+const infoDivAir = document.getElementById("infoAir");
+const infoDivMacBook = document.getElementById("infoMacBook");
+const infoDiviMac = document.getElementById("infoiMac");
+
+fetch("../data/modelPrices.json")
+    .then((response) => response.json())
+    .then((modelPrices) => {
+        attachEventListeners(modelPrices);
+    })
+    .catch((error) => {
+        console.error("Error fetching model prices", error);
+    });
+
+function attachEventListeners(modelPrices) {
+    menuPro.addEventListener("change", function () {
+        populatePrices(menuPro, infoDivPro, modelPrices);
+    });
+
+    menuAir.addEventListener("change", function () {
+        populatePrices(menuAir, infoDivAir, modelPrices);
+    });
+
+    menuMacBook.addEventListener("change", function () {
+        populatePrices(menuMacBook, infoDivMacBook, modelPrices);
+    });
+
+    menuiMac.addEventListener("change", function () {
+        populatePrices(menuiMac, infoDiviMac, modelPrices);
+    });
+}
+
+function populatePrices(menu, infoDiv, modelPrices) {
+    const selectedItem = menu.value;
+
+    const displayReplacementElement = infoDiv.querySelector('.display-replacement');
+    const batteryReplacementElement = infoDiv.querySelector('.battery-replacement');
+    const hardDriveReplacementElement = infoDiv.querySelector('.hard-drive-replacement');
+
+    if (selectedItem && modelPrices[selectedItem]) {
+        const selectedModel = modelPrices[selectedItem];
+
+        displayReplacementElement.textContent = `${selectedModel.displayReplacement}`;
+        batteryReplacementElement.textContent = `${selectedModel.batteryReplacement}`;
+        hardDriveReplacementElement.textContent = `${selectedModel.hardDriveReplacement}`
+    } else {
+        displayReplacementElement.textContent = "";
+        batteryReplacementElement.textContent = "";
+        hardDriveReplacementElement.textContent = "";
+    }
+}
+
+My JSON
+
+{
+    "A2485": {
+        "displayReplacement": "$899.95",
+        "batteryReplacement": "Call for more information"
+    },
+    "A2141": {
+        "displayReplacement": "$849.95",
+        "batteryReplacement": "$274.95"
+    },
+    "A2442": {
+        "displayReplacement": "$1099.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A2338": {
+        "displayReplacement": "$499.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A2289": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A2251": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "Call for more information"
+    },
+    "A2159": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A1990": {
+        "displayReplacement": "$824.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A1707": {
+        "displayReplacement": "$849.95",
+        "batteryReplacement": "$224.95"
+    },
+    "A1989": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A1706": {
+        "displayReplacement": "$399.95",
+        "batteryReplacement": "$224.95"
+    },
+    "A1398": {
+        "displayReplacement": "$649.95",
+        "batteryReplacement": "$199.95"
+    },
+    "A1708": {
+        "displayReplacement": "$399.95",
+        "batteryReplacement": "$224.95"
+    },
+    "A1502": {
+        "displayReplacement": "$524.95",
+        "batteryReplacement": "$199.95"
+    },
+    "A1425": {
+        "displayReplacement": "$499.95",
+        "batteryReplacement": "$199.95"
+    },
+    "A1297": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A1286": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A1278": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A2941": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "Call for more information"
+    },
+    "A2681": {
+        "displayReplacement": "$649.95",
+        "batteryReplacement": "Call for more information"
+    },
+    "A2337": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$249.95"
+    },
+    "A2179": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$224.95"
+    },
+    "A1932": {
+        "displayReplacement": "$449.95",
+        "batteryReplacement": "$224.95"
+    },
+    "A1466": {
+        "displayReplacement": "$349.95",
+        "batteryReplacement": "$149.95"
+    },
+    "A1369": {
+        "displayReplacement": "$374.95",
+        "batteryReplacement": "$174.95"
+    },
+    "A1465": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "Call for more information"
+    },
+    "A1370": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A1181": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A1534": {
+        "displayReplacement": "$599.95",
+        "batteryReplacement": "$199.95"
+    },
+    "A1342": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A1278": {
+        "displayReplacement": "Call for more information",
+        "batteryReplacement": "$149.95"
+    },
+    "A2115": {
+        "displayReplacement": "$699.95",
+        "hardDriveReplacement": "Call for more information"
+    },
+    "A1862": {
+        "displayReplacement": "Call for more information",
+        "hardDriveReplacement": "Call for more information"
+    },
+    "A1419": {
+        "displayReplacement": "$649.95",
+        "hardDriveReplacement": "Call for more information"
+    },
+    "A1418": {
+        "displayReplacement": "$499.95",
+        "hardDriveReplacement": "Call for more information"
+    }
+}
+
+My Issue:
+
+I have set up my webpage to get pricing info from my json file

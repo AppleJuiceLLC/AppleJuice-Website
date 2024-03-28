@@ -897,16 +897,16 @@ footer {
     font-size: 16px;
 }
 
-/* This rule doesn't seem to affect anything. Wait to see... */
-/* .swiperSlideHeight {
-    min-height: 400px;
-} */
-
 .macModelDisclaimer p {
     font-size: x-small;
     margin-inline: 1rem;
     margin-top: 1.5rem;
 }
+
+/* This rule doesn't seem to affect anything. Wait to see... */
+/* .swiperSlideHeight {
+    min-height: 400px;
+} */
 
 /* Shop Page */
 
