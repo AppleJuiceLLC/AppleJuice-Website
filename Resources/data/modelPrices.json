@@ -308,5 +308,150 @@
         "battery": "$54.95",
         "cPort": "$59.95",
         "back": "$0"
+    },
+    "iPadP126": {
+        "screen": "$399.95",
+        "battery": "- Call for more information",
+        "cPort": "$199.95"
+    },
+    "iPadP125": {
+        "screen": "$399.95",
+        "battery": "$199.95",
+        "cPort": "$199.95"
+    },
+    "iPadP124": {
+        "screen": "$299.95",
+        "battery": "$149.95",
+        "cPort": "$174.95"
+    },
+    "iPadP123": {
+        "screen": "$299.95",
+        "battery": "$149.95",
+        "cPort": "$199.95"
+    },
+    "iPadP122": {
+        "screen": "$499.95",
+        "battery": "$149.95",
+        "cPort": "$199.95"
+    },
+    "iPadP121": {
+        "screen": "$299.95",
+        "battery": "$149.95",
+        "cPort": "$199.95"
+    },
+    "iPadP114": {
+        "screen": "$274.95",
+        "battery": "- Call for more information",
+        "cPort": "$199.95"
+    },
+    "iPadP113": {
+        "screen": "$274.95",
+        "battery": "$149.95",
+        "cPort": "$199.95"
+    },
+    "iPadP112": {
+        "screen": "$274.95",
+        "battery": "$149.95",
+        "cPort": "$174.95"
+    },
+    "iPadP111": {
+        "screen": "$274.95",
+        "battery": "$149.95",
+        "cPort": "$174.95"
+    },
+    "iPadP105": {
+        "screen": "$249.95",
+        "battery": "$124.95",
+        "cPort": "$149.95"
+    },
+    "iPadP97": {
+        "screen": "$229.95",
+        "battery": "$119.95",
+        "cPort": "$149.95"
+    },
+    "iPadA5": {
+        "screen": "$249.95",
+        "battery": "- Call for more information",
+        "cPort": "$199.95"
+    },
+    "iPadA4": {
+        "screen": "$224.95",
+        "battery": "$129.95",
+        "cPort": "$199.95"
+    },
+    "iPadA3": {
+        "screen": "$249.95",
+        "battery": "$124.95",
+        "cPort": "$199.95"
+    },
+    "iPadA2": {
+        "screen": "$174.95",
+        "battery": "$109.95",
+        "cPort": "$134.95"
+    },
+    "iPadA1": {
+        "screen": "$99.95",
+        "battery": "$99.95",
+        "cPort": "$134.95"
+    },
+    "iPad10": {
+        "screen": "$174.95",
+        "battery": "- Call for more information",
+        "cPort": "$199.95"
+    },
+    "iPad9": {
+        "screen": "$139.95",
+        "battery": "$99.95",
+        "cPort": "$149.95"
+    },
+    "iPad8": {
+        "screen": "$139.95",
+        "battery": "$99.95",
+        "cPort": "$149.95"
+    },
+    "iPad7": {
+        "screen": "$139.95",
+        "battery": "$99.95",
+        "cPort": "$149.95"
+    },
+    "iPad6": {
+        "screen": "$119.95",
+        "battery": "$99.95",
+        "cPort": "$134.95"
+    },
+    "iPad5": {
+        "screen": "$99.95",
+        "battery": "$99.95",
+        "cPort": "$134.95"
+    },
+    "iPadM6": {
+        "screen": "$334.95",
+        "battery": "- Call for more information",
+        "cPort": "$149.95"
+    },
+    "iPadM5": {
+        "screen": "$174.95",
+        "battery": "$114.95",
+        "cPort": "$134.95"
+    },
+    "iPadM4": {
+        "screen": "$174.95",
+        "battery": "$114.95",
+        "cPort": "$134.95"
+    },
+    "iPadM3": {
+        "screen": "$99.95",
+        "battery": "$94.95",
+        "cPort": "$134.95"
+    },
+    "iPadM2": {
+        "screen": "$84.95",
+        "battery": "$94.95",
+        "cPort": "$134.95"
+    },
+    "iPadM1": {
+        "screen": "$84.95",
+        "battery": "$74.95",
+        "cPort": "$134.95"
     }
 }
